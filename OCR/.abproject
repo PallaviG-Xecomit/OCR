@@ -1,0 +1,45 @@
+{
+  "ProjectName": "OCR",
+  "ProjectGuid": "6ce0ac3b-37f3-4e03-9b2d-9b8b5ec6d392",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.OCR",
+  "DisplayName": "OCR",
+  "Author": "",
+  "Description": "OCR",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{c903cc04-800d-4d03-8bcd-67225ca0b591}",
+  "WP8ProductID": "{7c6dc629-e835-4bc3-8db1-4a472eaf5b62}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.OCR",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}

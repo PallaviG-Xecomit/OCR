@@ -2,14 +2,67 @@
     <header data-role="header">
         <div data-role="navbar" class="header-text">
 
-            <span data-bind="text: strings.home.title"></span>
+            <span>Home</span>
 
         </div>
     </header>
-
-
+    <!--<table>
+        <tr>
+            <td>
+                <a data-role="button" data-icon="camera" onclick="app.home.getImage()"></a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="header">Image to use:</div>
+                <img width="200px" height="200px"  id="imageText" onload="app.home.readText(this)" src="images/Capture2.JPG"/>
+                <a onclick="app.home.readText(this)" data-role="button" data-icon="search"></a>
+                <div id="dvCanvas" style="display:none">
+                    <canvas id="canvas1" class="border">
+                    This browser does not support the HTML5 canvas tag</canvas>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="header">Text from image:</div>
+                <div class="header highlight" id="output">Fecthing text…</div>
+            </td>
+        </tr>
+    </table>-->
     <!-- START_CUSTOM_CODE_home -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
 
     <!-- END_CUSTOM_CODE_home -->
+    <table width="100%">
+        <tr>
+            <td style="text-align: center;">
+                <a style="background: deepskyblue;" onclick="app.home.getImage()" data-role="button" data-icon="camera"></a>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                <div class="entranceFade first">
+                    <div class="header" style="font-size: large; font-weight: bold;">Image</div>
+                    <img width="200px" height="200px" alt="loading" onload="app.home.readText(this)" id="imageText" src=""/>
+                </div>
+                <div class="entranceFade second" style="display:none">
+                    <div class="header">Canvas:</div>
+                    <canvas id="canvas" class="border">
+                    This browser does not support the HTML5 canvas tag</canvas>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                <div class="entranceFade third">
+                    <div class="header" style="font-size: large; font-weight: bold;">Text from image</div>
+                    <div class="header highlight" id="output">Fecthing text…</div>
+                    <div id="imgLoad">
+                        <img src="images/spin.gif"/>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
 </div>

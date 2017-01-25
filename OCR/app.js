@@ -64,6 +64,14 @@
                 navigator.splashscreen.hide();
             }
             bootstrap();
+            try{
+                navigator.app.clearCache();
+                navigator.app.clearHistory();
+            }
+            catch(error)
+            {
+                alert(error);
+            }
         }, false);
     } else {
         bootstrap();
